@@ -1,0 +1,49 @@
+
+
+We need to make one vector and load txt files into it, 
+the amount of time it takes for it to be loaded (500x113) will be the "loading time" before a lvl
+
+
+
+
+		free space after chara = 		128-73 = 55
+		free space before chara =   37
+								= 55-37 = 18
+								128-37-18
+
+								player width = 73
+								player height = 90
+
+								73 % 32 = 9
+
+
+								enemy locations 
+								ptx		pty		px			py		lvl
+				enemy 1 :		68		79		2176		2496	1
+				enemy 2 :		116		74		3712		2336	2
+				enemy 3 :		156		72		4992		2272	2
+				enemy 4 :		294		80		9408		2528	3
+				enemy 5 :		335		79		10720		2496	3
+				enemy 6 :		359		78		11488		2464	3
+				enemy 7 :		389		79		12448		2496	2
+				enemy 8 :		325		49		10400		1536	3
+				enemy 9 :		345		49		11040		1536	2
+				enemy 10 :		371		52		11872		1632	3
+				enemy 12 :		442		27		14144		832		4
+				enemy 13 :		393		27		12576		832		4
+				enemy 14 :		252		45		8064		1408	5
+				enemy 15 :		137		38		4384		1184	5
+				enemy 16 :		366		11		11712		320		5
+				enemy 17 :		152		12		4864		352		boss(8-7)
+				enemy 18 :
+				enemy 19 :		next room		4352		416		final boss(10-12)
+
+								skill locations
+				skill 1 :		405		79		12960		2526	2
+				skill 2 :		400		58		12800		1856	2
+				skill 3 :		113		38		3616		1216	ult
+
+
+				ln 927 3
+				ln 1208 4
+				ln 1235 5
